@@ -1,0 +1,12 @@
+
+ Start  Stop   Length Name               Class
+
+ 00000H 00000H 00000H P2_TEXT            CODE
+ 00000H 00000H 00000H _DATA              DATA
+ 00000H 0000FH 00010H STACK              STACK
+ 00010H 00021H 00012H SRCSEG             
+ 00030H 00041H 00012H DSTSEG             
+ 00050H 0006BH 0001CH MAINPROGSEG        
+
+Program entry point at 0005:0000
+
