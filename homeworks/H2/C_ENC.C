@@ -16,6 +16,7 @@ void main()
     unsigned char randomKey = getRandomByte();
     saveKeyToFile(randomKey, KEY_FILE);
     encryptFile(INPUT_FILE, OUTPUT_FILE, randomKey);
+    decryptFile(OUTPUT_FILE, DECRYPTED_FILE, randomKey);
 }
 
 unsigned char getRandomByte()
