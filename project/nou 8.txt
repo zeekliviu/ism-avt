@@ -1,0 +1,19 @@
+BP-1:   Argument count
+BP-31:  Password storage
+BP-63:  Input filename
+BP-95:  Output filename
+BP-97:  Input file handle
+BP-99:  Output file handle
+BP-101: Key index
+BP-103: Character buffer
+- stiva
+- cum am gandit stack-ul
+- care sunt cele doua procs (encryptonechar si tolower), ce parametrii accepta si ce returneaza si cum (prin stack/registri)
+- PSP
+- 81h
+- ai alocat 32 octeti pentru fiecare arg si avem 3 args
+- mergi la primul arg
+- cum functioneaza print_string si print_loop
+- care-i faza cu IsDelimiter si unde se foloseste
+- exceptiile care pot aparea si cum sunt tratate
+- POC
